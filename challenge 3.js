@@ -1,12 +1,12 @@
 /* Write your code below. Good luck! 🙂 */
 
-const scoreDolphins = (96+108+89)/3;
-const scoreKoalas =(88+91+110)/3;
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
 
-if(scoreDolphins===scoreKoalas){
+if (scoreDolphins === scoreKoalas) {
     console.log("Both win the trophy");
-}else if(scoreDolphins>scoreKoalas){
+} else if (scoreDolphins > scoreKoalas) {
     console.log("Dolphins win the trophy");
-}else{
+} else {
     console.log("Koalas win the trophy");
 }
