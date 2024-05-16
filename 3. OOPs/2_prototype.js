@@ -15,11 +15,11 @@ function BankAccount(customerName, balance = 0) {
 const tansenAccount = new BankAccount('Tansen Keshri');
 const johnAccount = new BankAccount('John Cena', 1000);
 
-BankAccount.prototype.deposit = function (amount){
+BankAccount.prototype.deposit = function (amount) {
     this.balance += amount;
 }
 
-BankAccount.prototype.withdraw = function (amount){
+BankAccount.prototype.withdraw = function (amount) {
     this.balance -= amount;
 }
 
